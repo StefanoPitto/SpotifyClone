@@ -1,0 +1,104 @@
+.help-main-section{
+    background: url(https://support.scdn.co/web/_next/static/assets/90c3270/search-mobile.webp) top/100% no-repeat #a3a3a3;
+    padding: 0 8px 24px;
+    background-color: #1c2963;
+}
+
+.inner-search-division{
+    margin: auto;
+    max-width: 744px;
+    min-height: 340px;
+}
+
+.main-section-headline{
+    font-size: 64px;
+    line-height: 72px;
+    color: #fff;
+    letter-spacing: -2px;
+    text-align: center;
+    padding: 80px 0 40px;
+    font-size: 64px;
+    line-height: 72px;
+}
+
+.inner-text-container{
+    margin: auto;
+}
+
+.inner-text-container{
+    max-width: none;
+    padding: 30px 0 40px;
+    text-align: center;
+}
+
+.text-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item{
+    display: block;
+    max-width: 248px;
+    width: 100%;
+}
+
+.list-span{
+    text-align: center;
+    display: block;
+    margin: 8px 0;
+    padding: 2px 0;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: .1em;
+    color: rgb(217, 217, 217);
+}
+
+.list-a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    min-height: 54px;
+}
+
+.search-input-container{
+    position: relative;
+}
+
+.input-container{
+  position:relative;
+  width: 100%;
+}
+
+.search-input{
+    appearance: none;
+    background-image: none;
+    border: 0px;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    padding: 14px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(179 179 179) 0px 0px 0px 1px inset;
+    color: rgb(24, 24, 24);
+    padding-left: 48px;
+}
+
+.search-svg{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(179, 179, 179);
+    left: 12px;
+}
