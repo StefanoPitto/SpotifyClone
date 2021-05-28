@@ -51,7 +51,6 @@
 
 a {
   text-decoration: none;
-  color: #fff;
 }
 
 .navigation-bar-list-item :hover {
@@ -146,6 +145,12 @@ a {
   width: 132px;
   place-self: start;
 }
+
+.footer-spotify-logo :hover {
+  cursor: pointer;
+  color: #1ed760;
+}
+
 .footer-spotify-logo svg {
   fill: #fff;
   width: 100%;
@@ -161,10 +166,6 @@ a {
 a {
   text-decoration: none;
   color: #fff;
-}
-
-a :hover {
-  color: #1ed760;
 }
 
 .instagram-logo {
@@ -204,7 +205,7 @@ a :hover {
   margin-left: 220px;
   display: flex;
 }
-.footer-logos-division a {
+.footer-logos-division > a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   line-height: 1.5;
   -webkit-box-direction: normal;
@@ -226,14 +227,14 @@ a :hover {
   margin-right: 15px;
 }
 
+.footer-logo:hover {
+  color: #1ed760;
+}
+
 .footer-lists ul > :first-child {
   color: #919496;
   font-size: 12px;
   font-weight: 700px;
-}
-
-.footer-lists ul > li > span :hover {
-  color: aquamarine;
 }
 
 .country {
