@@ -1,0 +1,312 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-section {
+  max-width: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.spotify-logo {
+  padding: 40px 0px 32px;
+  text-align: center;
+}
+
+.divider > span {
+  background: #fff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin: 0px auto 1em;
+  color: rgb(127, 127, 127);
+  position: relative;
+  text-align: center;
+  width: 85%;
+}
+
+.inner-line {
+  border-top: 1px solid #d9dadc;
+  display: block;
+  line-height: 1px;
+  margin: 15px 0;
+  position: relative;
+  text-align: center;
+}
+
+.line-container {
+  width: 100%;
+}
+
+.spotify-logo {
+  margin: 0 auto;
+}
+
+.spotify-logo svg {
+  width: 130px;
+  height: 40px;
+}
+
+.register-headline {
+  text-align: center;
+  line-height: 36px;
+  letter-spacing: -0.04em;
+  font-size: 32px;
+  margin-top: 40px;
+}
+
+.facebook-register-btn {
+  text-align: center;
+  border-radius: 500px;
+  padding: 14px 32px;
+  background-color: #1877f2;
+  color: white;
+  text-align: center;
+  margin-bottom: 22px;
+  font-weight: 700;
+}
+
+.btn-container {
+  height: fit-content;
+  margin-bottom: 22px;
+}
+
+.terms-and-conditions-p p {
+  padding: 0px 0px 1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  text-align: start;
+}
+
+.terms-and-conditions-p > p > u {
+  color: rgb(29, 185, 84);
+}
+
+.terms-and-conditions-p > p > u:hover {
+  color: rgb(30, 215, 96);
+}
+
+.form-container > label,
+input,
+p {
+  text-align: start;
+  width: 100%;
+  display: block;
+}
+
+.form-container > input {
+  appearance: none;
+  background-image: none;
+  border: 0px;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 4px;
+  padding: 14px;
+  border: 1px solid rgb(118, 118, 118);
+}
+
+.form-container > label {
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.underlined-text {
+  color: #117a37;
+}
+
+.form-container {
+  padding-bottom: 24px;
+}
+
+.profile-show {
+  color: rgb(24, 24, 24) !important;
+  font-size: 14px;
+}
+
+.birth-date-container {
+  text-align: start;
+  padding-bottom: 24px;
+}
+
+.inner-birth-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-birth-container {
+  border: 0px;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 4px;
+  padding: 14px;
+  border: 1px solid rgb(118, 118, 118);
+}
+
+.birth-label {
+  display: block;
+}
+
+.day-container {
+  width: 20%;
+}
+
+.month-container {
+  width: 45%;
+}
+
+.month-container > select {
+  border: 0px;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 4px;
+  padding: 14px 44px 14px 14px;
+  border: 1px solid rgb(118, 118, 118);
+}
+.year-container {
+  width: 25%;
+}
+
+.what-sex-span {
+  display: block;
+  text-align: start;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.gender-select-container {
+  padding: 0px 0px 24px;
+  min-width: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+.inner-genders-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.gender-container > span {
+  padding-left: 12px;
+  padding-right: 24px;
+}
+
+.gender-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gender-container > label {
+  display: inline-block;
+}
+
+.gender-container > input {
+  width: fit-content;
+}
+
+.inner-checbox-div {
+  display: flex;
+  padding-bottom: 24px;
+}
+
+.inner-checbox-div > input {
+  width: fit-content;
+}
+
+.inner-checbox-div > p {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  padding-left: 12px;
+  padding-right: 24px;
+}
+.dif-checbox {
+  position: relative;
+}
+
+.register-div > p > u {
+  color: rgb(29, 185, 84);
+}
+
+.register-div {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  padding: 0px 0px 1em;
+}
+
+.register-div > p {
+  text-align: center;
+}
+
+.btn-register-container {
+  height: fit-content;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+
+.btn-register {
+  background-color: rgb(30, 215, 96);
+  border-radius: 500px;
+  padding: 16px 48px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn-register:hover {
+  transform: scale(1.04);
+  animation: all 0.5s;
+  cursor: pointer;
+}
+
+.have-account-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
